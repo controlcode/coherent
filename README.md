@@ -20,7 +20,7 @@ pip install -r requirements.txt
 ```
 
 Run the application
--------------------
+-
 ```
 $ python run.py
  * Running on http://127.0.0.1:5050/
@@ -28,7 +28,7 @@ $ python run.py
 ```
 
 Test the application
---------------------
+-
 Install dependencies for the tests using pip
 
 ```
@@ -40,7 +40,7 @@ python run_tests.py
 ```
 
 Test the response
------------------
+-
 
 Now open up a prompt to test out your API using curl
 ```
@@ -48,3 +48,9 @@ $ curl http://127.0.0.1:5050/health
 {"status": "healthy"}
 ```
 
+Docker
+-
+
+docker build -t "coherent" .
+
+docker run -d -p 5050:5050 coherent
