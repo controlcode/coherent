@@ -16,4 +16,4 @@ csrf = CSRFProtect(app)
 from coherent.views.login import login_bp
 app.register_blueprint(login_bp)
 
-logger.info('Starting Coherent UI ...')
+logger.info('Starting Coherent UI')
