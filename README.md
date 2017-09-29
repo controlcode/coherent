@@ -2,6 +2,7 @@
 
 
 [![CircleCI](https://circleci.com/gh/rjweeks/coherent/tree/master.svg?style=svg)](https://circleci.com/gh/rjweeks/coherent/tree/master)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/488e430a7713465190f0791b438f4b77)](https://www.codacy.com/app/rjweeks/coherent?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=rjweeks/coherent&amp;utm_campaign=Badge_Grade)
 
 
 ## Setup
