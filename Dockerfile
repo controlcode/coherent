@@ -1,4 +1,5 @@
 FROM python:3.6
+LABEL maintainer="rich@controlcode.co.uk"
 ENV RUNTIME_PACKAGES="python3"
 ENV BUILD_PACKAGES="build-essential python3-dev python3-pip libpq-dev"
 WORKDIR /coherent
