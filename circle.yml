@@ -6,6 +6,9 @@ machine:
 
 dependencies:
   pre:
+    - pipenv --version
+    - pipenv --where
+    - pipenv --venv
     - pip install pipenv
     - pipenv install
 
