@@ -8,3 +8,7 @@ dependencies:
   pre:
     - pip install pipenv
     - pipenv install
+
+test:
+  override:
+    - pyenv run python run_tests.py
