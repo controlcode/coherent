@@ -14,19 +14,45 @@ Create a virtual env for python3 and make sure that it's activated
 mkvirtual --python=</path/to/python3.6 <your env name>
 ```
 
-Install dependencies for the application using pip
+Check python version
 
 ```
-pip install -r requirements.txt
+pyenv version
 ```
 
-Run the application
+If required install Python version 3.6.3
+
+```
+pyenv install 3.6.3
+```
+
+If it's already installed switch to it by
+
+```
+pyenv local 3.6.3
+```
+
+Install dependencies for the application using pipenv
+
+```
+pipenv install
+```
+
+Run the application in Pyenv
 -
 ```
-$ python run.py
+$ pyenv run python run.py
  * Running on http://127.0.0.1:5050/
  * Restarting with reloader
 ```
+
+Or
+
+```
+pyenv shell
+python run.py
+```
+
 
 Test the application
 -
