@@ -1,7 +1,10 @@
 machine:
+  python:
+    version: 3.6.3
   post:
     - pyenv global 3.6.3
 
 dependencies:
   pre:
+    - pip install pipenv
     - pipenv install
