@@ -8,11 +8,8 @@ name = "pypi"
 [packages]
 
 Flask = "==0.12"
-Flask-SQLAlchemy = "==2.1"
 Flask-Cors = "==3.0.2"
 Flask-WTF = "==0.14.2"
-"psycopg2" = "==2.6.2"
-SQLAlchemy = "==1.1.5"
 structlog = "==16.1.0"
 gunicorn = "==19.7.1"
 WTForms = "==2.1"

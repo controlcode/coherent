@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "8a9a2c0886bddc20a7a20fb9c2ba7494965bbac654c2eefd58690124b28406df"
+            "sha256": "b709c6afa65e48248b3e579d233520d2332fc12c3af4e601c6faa1cb5f48def4"
         },
         "host-environment-markers": {
             "implementation_name": "cpython",
@@ -49,12 +49,6 @@
             ],
             "version": "==3.0.2"
         },
-        "flask-sqlalchemy": {
-            "hashes": [
-                "sha256:c5244de44cc85d2267115624d83faef3f9e8f088756788694f305a5d5ad137c5"
-            ],
-            "version": "==2.1"
-        },
         "flask-wtf": {
             "hashes": [
                 "sha256:d9a9e366b32dcbb98ef17228e76be15702cd2600675668bca23f63a7947fd5ac",
@@ -88,38 +82,12 @@
             ],
             "version": "==1.0"
         },
-        "psycopg2": {
-            "hashes": [
-                "sha256:60f29f91a88fe7c2d1eb7fb64f3ea99b0bd3d06ea7169e187ccb2cb653f91311",
-                "sha256:48c1648d090ca72cf430920fb62f138cd02f9d2b035d2d2654af0a38f28bdc27",
-                "sha256:6b6f745fb3a94a8d48b2e225e14808768ed33c52993ad6319b8f9cb972fec4dd",
-                "sha256:53973aea916a92a172e46b3181fc8f904c9013ae17513ee3029386084449ef07",
-                "sha256:224bd45f838f8a714b8e711b4167158d86d01f398c678c46330caf59684a608f",
-                "sha256:ceee85d0b05e2b6e178e8aaa1d7e7ee679e5b712ef7a34798f5136321fe6bb3c",
-                "sha256:83afd42c95ac9e745ba9dcd28c20142ffa85a2ecc628d40fdc85342018ac016b",
-                "sha256:1ee3f027684db469e3aafa9d4897ed1ca19c599b772e12dca7e61ed1b30ce26e",
-                "sha256:863fae11c31f5a7b9ce1e738149793214aad36cff4ca92d7111562e2fdbd7b57",
-                "sha256:e03e5df05f85768af112e287cd89eecfce8a8ca2d6db3531402f7f0b0704d749",
-                "sha256:8ffbd1128df23c9fdfc3499084021055b3df7818f12ef87af5b3f33e27d58b0a",
-                "sha256:8c3b69d743e408527208d5ed6aa136b821bbd3cb1e236aa8479ff47ea986769c",
-                "sha256:c367d51de53bbe92c5f56dfc32278de79bbe706e64796306a44a6097130fdf84",
-                "sha256:bbc1c4065598146fe804bc0bc23c78429f1cf802ac6290518a371682a1569c4b",
-                "sha256:70490e12ed9c5c818ecd85d185d363335cc8a8cbf7212e3c185431c79ff8c05c"
-            ],
-            "version": "==2.6.2"
-        },
         "six": {
             "hashes": [
                 "sha256:832dc0e10feb1aa2c68dcc57dbb658f1c7e65b9b61af69048abc87a2db00a0eb",
                 "sha256:70e8a77beed4562e7f14fe23a786b54f6296e34344c23bc42f07b15018ff98e9"
             ],
             "version": "==1.11.0"
-        },
-        "sqlalchemy": {
-            "hashes": [
-                "sha256:68fb40049690e567ebda7b270176f5abf0d53d9fbd515fec4e43326f601119b6"
-            ],
-            "version": "==1.1.5"
         },
         "structlog": {
             "hashes": [

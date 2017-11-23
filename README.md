@@ -41,7 +41,7 @@ pipenv install
 Run the application in Pyenv
 -
 ```
-$ pyenv run python run.py
+$ pipenv run python run.py
  * Running on http://127.0.0.1:5050/
  * Restarting with reloader
 ```
