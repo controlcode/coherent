@@ -9,9 +9,8 @@ dependencies:
     - pipenv --version
     - pipenv --where
     - pipenv --venv
-    - pip install pipenv
-    - pipenv install
+    - pipenv graph
 
 test:
   override:
-    - pipenv run python run_tests.py
+    - python run_tests.py
