@@ -7,12 +7,14 @@ name = "pypi"
 
 [packages]
 
-Flask = "==0.12"
-Flask-Cors = "==3.0.2"
-Flask-WTF = "==0.14.2"
+flask = "==0.12"
+flask-cors = "*"
+flask-wtf = "==0.14.2"
 structlog = "==16.1.0"
 gunicorn = "==19.7.1"
-WTForms = "==2.1"
+wtforms = "==2.1"
+flask-restful = "*"
+pika = "*"
 
 
 [dev-packages]
